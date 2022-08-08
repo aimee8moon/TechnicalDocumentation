@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    background:#FAF9F6;
+  font-family: 'Open Sans',sans-serif;
+  }
+  
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0;
+    bottom:0;
+    width:300px;
+    height:100%;
+    border-right:solid rgb(114, 47, 55);
+    overflow: scroll;
+  }
+  .JS{
+    text-align:center;
+    padding: 10px 0 10px 0;
+    font-size: 1.8em;
+    border-bottom: 1px solid #722F37;
+    color: #722F37;
+  }
+  .navul{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  .navul li{
+    border-bottom: solid 1px #722F37;
+    padding: 10px 0 10px 26px;
+  }
+  a {
+    text-decoration: none;
+    color: #722F37;
+  }
+  a:hover{
+    color:#722F37;
+  }
+  #main-doc{
+    padding-left: 340px;
+    color:#722F37
+  }
+  p{
+    padding-right: 40px;
+  }
+  .introul li{
+    padding: 10px;
+    text-align: left;
+  }
+  .silverbox{
+    font-size:0.8em;
+    background:#E5E4E2;
+    margin-right:30px;
+  padding:10px;
+  border-radius:10px;
+  }
+  p{
+    padding-left:20px;
+  }
+  header{
+    font-size:1.8em;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
+  
+  
